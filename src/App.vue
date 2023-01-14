@@ -1,6 +1,5 @@
 <template>
-  <nav>
-    <!-- <div>
+   <!-- <div>
       <img src="../src/assets/pfp.jpg" alt="myself" srcset="" />
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
@@ -10,23 +9,39 @@
     <router-link to="/contact">Contact</router-link>
     </div> -->
    
-  </nav>
   <router-view />
+  <!-- <FooterVue></FooterVue> -->
 </template>
+
+<script>
+import FooterVue from './components/Footer.vue'
+import NavBar from './components/Navbar.vue'
+
+export default{
+  components: {
+    FooterVue,
+    NavBar
+}
+}
+</script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Share+Tech+Mono&display=swap");
 
 #app {
+  margin: 0;
+  padding: 0;
   font-family: "Share Tech Mono", monospace;
   text-align: center;
+  /* height: 100%; */
 }
+
 
 /* nav {
   padding: 30px;
 } */
 
-nav a {
+/* nav a {
   color: rgb(69, 68, 68);
   text-decoration: none;
   padding: 4px 20px;
@@ -47,7 +62,7 @@ nav a:hover {
   border-radius: 25px;
   border: solid 1px;
   border-color: grey;
-}
+} */
 /* nav a.router-link-exact-active {
   color: #42b983;
 } */

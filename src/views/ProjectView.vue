@@ -1,5 +1,5 @@
 <template>
-    <div class="about background">
+    <div class="background">
       <NavBar/>
       <h1 class="heading">Projects</h1>
       <div class="bg-container d-flex">
@@ -41,16 +41,19 @@
           </div>
         </div>
       </div>
+            <Footer1/>
     </div>
 </template>
 
 <script>
 import NavBar from '@/components/Navbar.vue'
 import CarouselVue from '@/components/Carousel.vue'
+import Footer1 from '@/components/Footer.vue'
 export default{
   components: {
     NavBar,
-    CarouselVue
+    CarouselVue,
+    Footer1
   }
 }
 
