@@ -6,11 +6,11 @@
       <div class="card my-auto" style="width: 60rem; height: 35rem">
         <div class="card-body"> -->
 
-    <div class="container">
-      <div class="row" v-for="item in Education" :key="item">
-        <div class="col order-last">
-          <div class="card" style="width: 18rem;">
-            <img :src="item.image" class="card-img-top" alt="">
+    <div class="container-fluid">
+      <div class="row " >
+        <div class="col-12 col-md-4 my-3" v-for="item in Education" :key="item">
+          <div class="card">
+            <img :src="item.image" class="card-img-top" alt="uvyt" width="100" height="500">
             <br>
             <div class="card-body">
               <h3 class="card-title"><span style="color: grey">{{ item.year }}</span><br>{{ item.name }}</h3>
@@ -155,5 +155,27 @@ export default {
 <style scoped>
 .Section2{
   padding-top: 50%;
+}
+
+img{
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  min-height: 200px;
+  align-self: center;
+}
+.card{
+  display: flex;
+  padding-top: 1em;
+}
+@media screen and (max-width:768px) {
+
+  img{
+    width: 50%;
+    min-width: 250px;
+    max-width: 40%;
+    height: auto;
+    align-self: center;
+  }
 }
 </style>

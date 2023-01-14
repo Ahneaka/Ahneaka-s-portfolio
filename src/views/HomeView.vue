@@ -33,7 +33,7 @@ export default {
 </script>
 <style >
     @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap");
-.background {
+body {
   background-size: cover;
   /* background-color: #fff; */
   /* width: 100%; */
