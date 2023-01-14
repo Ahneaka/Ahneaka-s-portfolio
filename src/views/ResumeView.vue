@@ -78,34 +78,7 @@
       </div>
     </div>
   
-<section2>
-  <h1 class="heading">Skills</h1>
-  <div class="bg-container d-flex">
-    <div class="card my-auto" style="width: 60rem; height: 35rem">
-      <div class="card-body">
-        <div class="flex-container">
 
-          <img src="https://i.postimg.cc/bNtBJcVQ/html.png" style="height: 100px; width: 150px;"><br>
-          <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-              aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-          </div>
-          <img src="https://i.postimg.cc/vmqJn7r9/css.png" style="height: 100px; width: 150px;"><br>
-          <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-              aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-          </div>
-          <img src="https://i.postimg.cc/gcXWv7B0/bootstrap.png" style="height: 150px; width: 160px;">
-          <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-              aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section2>
   <Footer1 />
   </div>
 </template>
