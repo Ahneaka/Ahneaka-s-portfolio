@@ -2,7 +2,7 @@
     <div class="background">
         <NavBar />
         <h1 class="heading">Projects</h1>
-        <div class="bg-container d-flex">
+        <!-- <div class="bg-container d-flex">
             <div class="card my-auto" style="width: 60rem; height: 35rem">
                 <div class="card-body">
                     <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
@@ -64,7 +64,21 @@
                 </div>
             </div>
 
+        </div> -->
+<div class="container">
+    <div class="row">
+  <div class="col-md-4 my-3 align-self-start" v-for="item in Projects2" :key="item">
+    <div class="card">
+        <div class="card-body">
+            <img :src="item.image" style="height: 200px; width: 300px;" class="card-img-top" alt="">
+            <h3 class="card-text">{{item.name }} </h3>
+          <p class="card-text">{{item.site }}
+        </p>
         </div>
+      </div>
+  </div>
+    </div> 
+</div>
     </div>
 </template>
 
@@ -113,6 +127,11 @@ export default {
                     image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
                     site: 'https://supwave-shop.netlify.app/'
                 },
+                {
+                    name: 'Tap above me',
+                    image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
+                    site: 'https://supwave-shop.netlify.app/'
+                }
 
 
             ]
@@ -129,6 +148,11 @@ export default {
 </script>
 
 <style scoped>
+
+.row{
+    align-items: center;
+    justify-content: center;
+}
 .carousel-item {
     /* height: 30rem; */
     color: pink;

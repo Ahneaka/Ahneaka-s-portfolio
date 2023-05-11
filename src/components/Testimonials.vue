@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col align-self-start">
-        <div v-for="testis in Testimonials" :key="testis" class="card h-100" style="width: 18rem;">
-            <div data-aos="flip-right"> <img :src="testis.image" style="height: 100%;width: 100%;" class="card-img-top" alt=""></div>
+      <div class="col-md-4 my-3 align-self-start"  v-for="testis in Testimonials" :key="testis">
+        <div class="card">
             <div class="card-body">
+                <img :src="testis.image" style="height: 250px; width: 300px;" class="card-img-top" alt="">
                 <h3 class="card-text">{{testis.name }} </h3>
               <p class="card-text">{{testis.words }}<br>
                 {{testis.email }}
@@ -65,5 +65,9 @@ export default {
 }
 </script>
 <style scoped>
+
+.card-body{
+    height: 500px;
+}
     
 </style>

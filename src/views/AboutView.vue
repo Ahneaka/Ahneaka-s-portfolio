@@ -5,15 +5,22 @@
     <div class="bg-container d-flex">
       <div class="card my-auto" style="width: 60rem; height: 35rem">
         <div class="card-body">
-          <CarouselVue>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://i.postimg.cc/4xRzFxjY/2b.jpg" class="d-block w-100 h-100" alt="anime" width="100%" height="100%">
+        </div>
+        <div class="col-md-6">
+          <h5>
+              I have always been interested in computers because I was
+              surrounded with friends whom built their own PC's. I started
+              gaming when I was younger and introduced myself to anime.
+          </h5>
+
+        </div>
+      </div>
+          <!-- <CarouselVue>
             <div class="carousel-item active">
-                <img src="https://i.postimg.cc/4xRzFxjY/2b.jpg" class="d-block w-100 h-100" alt="anime" width="100%" height="100%">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>
-                        I have always been interested in computers because I was
-                        surrounded with friends whom built their own PC's. I started
-                        gaming when I was younger and introduced myself to anime.
-                    </h5>
                 </div>
             </div>
             <div class="carousel-item">
@@ -37,7 +44,7 @@
                     </h5>
                 </div>
             </div>
-          </CarouselVue>
+          </CarouselVue> -->
         </div>
       </div>
     </div>

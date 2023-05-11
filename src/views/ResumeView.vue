@@ -6,9 +6,9 @@
       <div class="card my-auto" style="width: 60rem; height: 35rem">
         <div class="card-body"> -->
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row " >
-        <div class="col-12 col-md-4 my-3" v-for="item in Education" :key="item">
+        <div class="col-12 my-3" v-for="item in Education" :key="item">
           <div class="card">
             <img :src="item.image" class="card-img-top" alt="uvyt" width="100" height="500">
             <br>
@@ -126,6 +126,10 @@ export default {
 </script>
 
 <style scoped>
+
+.container{
+  width: 60%;
+}
 .Section2{
   padding-top: 50%;
 }
