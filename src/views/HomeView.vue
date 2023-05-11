@@ -92,13 +92,7 @@ nav a {
   font-size: 17px;
 }
 
-.nav-img {
-  width: 20%;
-  height: auto;
-  margin-left: 0;
-  border-radius: 50%;
-  float: left;
-}
+
 
 @media screen and (max-width: 767px) {
   .nav-img {
@@ -109,6 +103,10 @@ nav a {
   }
 }
 
+.profile{
+  border-radius: 50%;
+
+}
 nav a:hover {
   background-color: rgba(128, 128, 128, 0.172);
   color: white;
@@ -127,14 +125,12 @@ nav a:hover {
       padding-top: 20%;
     }
 
-    h6 {
-      letter-spacing: 6px;
-      color: #fff;
-      font-family: "Cinzel Decorative", cursive;
-    }
+   
 
     h5 {
       font-family: "Share Tech Mono", monospace;
+      letter-spacing: 6px;
+
     }
 
 </style>
