@@ -25,22 +25,22 @@ export default {
     return {
       Education: [
         {
-          year: '2022-2023',
+          year: '2015-2019',
           name: 'Windsor Highschool',
           text: 'National Certificate',
           image: 'https://i.postimg.cc/hPmQ3phD/th.jpg'
         },
         {
           year: '2021-2022',
-          name: 'False bay college- Muizenburg',
+          name: 'False Bay College',
           text: 'Hospitality and Catering practical N6 Certificate',
           image: 'https://i.postimg.cc/25QwRC65/2309876.webp'
         },
 
         {
-          year: '2015-2019',
+          year: '2022-2023',
           name: 'Life Choices',
-          text: 'coding',
+          text: 'Full-Stack Developer',
           image: 'https://i.postimg.cc/SRD10kg9/lc.png'
         },
 

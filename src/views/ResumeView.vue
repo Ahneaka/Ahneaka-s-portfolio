@@ -15,7 +15,7 @@
             <div class="card-body">
               <h3 class="card-title"><span style="color: grey">{{ item.year }}</span><br>{{ item.name }}</h3>
 
-              <h1 class="card-text">{{ item.text }}</h1>
+              <h3 class="card-text">{{ item.text }}</h3>
               <br>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default {
           year: '2022-2023',
           name: 'Windsor Highschool',
           text: 'National Certificate',
-          image: 'https://i.postimg.cc/hPmQ3phD/th.jpg'
+          image: 'https://i.postimg.cc/yNTh5J4g/windsor.jpg'
         },
         {
           year: '2021-2022',

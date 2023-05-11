@@ -16,10 +16,10 @@
   <nav class="navbar navbar-expand-md">
     <div class="container">
       <div class="d-flex">
-        <a href="" class="navbar-brand m-auto">
+        <!-- <a href="" class="navbar-brand m-auto">
           <img class="nav-img d-inline-block" img src="https://i.postimg.cc/7h5gy5k0/1667550652766.jpg" width="30px"
             height="10px" />
-        </a>
+        </a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
           aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -59,5 +59,9 @@ export default {
 </script>
 
 <style>
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: end !important;
+}
 
 </style>
