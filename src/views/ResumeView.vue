@@ -20,61 +20,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col">
-      <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">2022- <span style="color: blue"> False bay college- Muizenburg</span></h3>
-
-                  <h1 class="card-text">Hospitality and Catering practical N6 Certificate</h1>
-                </div>
-              </div>
-    </div>
-    <div class="col order-first">
-      <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">2022- <span style="color: green"> Life Choices</span></h3>
-
-                  <h1 class="card-text">Coding</h1>
-                </div>
-              </div>
-    </div> -->
-        <!-- </div>
-</div> -->
-        <!-- <div class="grid">
-            <div class="g-col-6 g-col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">2022- <span style="color: green"> Life Choices</span></h3>
-
-                  <h1 class="card-text">Coding</h1>
-                </div>
-              </div>
-            </div>
-            <div class="g-col-6 g-col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">2022- <span style="color: blue"> False bay college- Muizenburg</span></h3>
-
-                  <h1 class="card-text">Hospitality and Catering practical N6 Certificate</h1>
-                </div>
-              </div>
-            </div>
-            <div class="g-col-6 g-col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">2022- <span style="color: cyan"> Windsor Highschool</span></h3>
-
-                  <h1 class="card-text">National Certificate</h1>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
+       
       </div>
     </div>
   
@@ -155,4 +101,6 @@ img{
     align-self: center;
   }
 }
+
+
 </style>
