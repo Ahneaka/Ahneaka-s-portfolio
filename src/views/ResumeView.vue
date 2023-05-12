@@ -2,9 +2,7 @@
   <div class="background">
     <NavBar />
     <h1 class="heading">Resume</h1>
-    <!-- <div class="bg-container d-flex">
-      <div class="card my-auto" style="width: 60rem; height: 35rem">
-        <div class="card-body"> -->
+    
 
     <div class="container">
       <div class="row " >
@@ -23,7 +21,12 @@
        
       </div>
     </div>
-  
+  <section-2>
+    <h1 class="my-5">
+      Skills
+    </h1>
+
+  </section-2>
 
   <Footer1 />
   </div>

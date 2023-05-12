@@ -91,24 +91,24 @@ export default {
         return {
             Projects: [
                 {
-                    name: 'Tap above me',
+                    name: 'Arcadian',
                     class: 'active',
-                    image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
-                    site: 'https://supwave-surf-shop.netlify.app'
+                    image: 'https://i.postimg.cc/7PKBJnkf/Screenshot-2023-05-10-091927.png',
+                    site: ''
                 }
             ],
             Projects2: [
 
                 {
-                    name: 'Tap above me',
-                    image: 'https://i.postimg.cc/q7qWNR7b/Screenshot-2.png',
+                    name: 'Cypher',
+                    image: 'https://i.postimg.cc/NMmKq4kb/Screenshot-2023-04-18-151741.png',
                     site: 'https://v-v-g-exhibit.netlify.app/'
                 },
 
                 {
-                    name: 'Tap above me',
+                    name: 'Supwave',
                     image: 'https://i.postimg.cc/QVLjb7Fd/Screenshot-3.png',
-                    site: 'https://aniimeflix-anime.netlify.app/'
+                    site: 'https://supwave-shop.netlify.app/'
                 },
                 {
                     name: 'Tap above me',
@@ -117,15 +117,13 @@ export default {
                 },
                 {
                     name: 'Tap above me',
-                    class: '',
-
                     image: 'https://i.postimg.cc/mk3TmDC3/Screenshot-5.png',
                     site: 'https://new-calculator-ahneaka.netlify.app/'
                 },
                 {
                     name: 'Tap above me',
-                    image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
-                    site: 'https://supwave-shop.netlify.app/'
+                    image: 'https://i.postimg.cc/QVLjb7Fd/Screenshot-3.png',
+                    site: 'https://aniimeflix-anime.netlify.app/'
                 },
                 {
                     name: 'Tap above me',

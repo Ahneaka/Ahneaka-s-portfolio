@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 my-3 align-self-start"  v-for="testis in Testimonials" :key="testis">
+      <div class="col-md-4 peep my-4 align-self-start"  v-for="testis in Testimonials" :key="testis">
         <div class="card">
             <div class="card-body">
-                <img :src="testis.image" style="height: 250px; width: 300px;" class="card-img-top" alt="">
+                <img :src="testis.image" style="height: 250px; max-width: 300px;" class="card-img-top" alt="">
                 <h3 class="card-text">{{testis.name }} </h3>
               <p class="card-text">{{testis.words }}<br>
                 {{testis.email }}
@@ -66,8 +66,14 @@ export default {
 </script>
 <style scoped>
 
+.peep{
+    width: 400px;
+    height: 450px;
+
+}
+
 .card-body{
-    height: 500px;
+    max-height: 500px;
 }
     
 </style>
