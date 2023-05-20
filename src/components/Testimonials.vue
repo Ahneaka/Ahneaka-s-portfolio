@@ -24,37 +24,37 @@ export default {
             Testimonials: [
                 {
                     name: "Nikita Ramawoother",
-                    image: "https://i.postimg.cc/DftvWh66/56164181-2459897407354092-3884515211599675392-n.jpg",
+                    image: "https://i.postimg.cc/595nnWy5/nikita.jpg",
                     words: "Aneeqa is a very creative individual and she is not only helpful but also an exceptional developer that you can always count on to get some ideas and inspiration from.",
                     email: "crazyscientist996@gmail.com"
                 },
                 {
                     name: "Mu'eed Brown",
-                    image: "https://i.postimg.cc/SKpYc8GZ/mueed.jpg",
+                    image: "https://i.postimg.cc/vBtfLMhc/DSC-3535-1.jpg",
                     words: "Aneeqa is a talented individual, she has a creative mind that will allow her to make use of her web development skills. She also has great communication skills, she can work well with  others.",
                     email: "mueedb036@gmail.com"
                 },
                 {
                     name: "Abdul-Azeez",
-                    image: "https://i.postimg.cc/qqgNpGk7/aak.jpg",
+                    image: "https://i.postimg.cc/C1GHPbhM/C11-Abdul-Azeez-Kemp-1.jpg",
                     words: "Aneeqa, is a wonderful lady, personality is one of kind, unique. Hard working individual and great to work with and always available with a smile on her face if you need assistance or to just to converse with.",
                     email: "aakemp786@gmail.com"
                 },
                 {
-                    name: "Abdul-wahhaab",
-                    image: "https://i.postimg.cc/Qx9FPS44/zozo.jpg",
+                    name: "Jake Jansen",
+                    image: "https://i.postimg.cc/prybYVvZ/C11-Jake-Jansen-3.jpg",
                     words: "Aneeqa is a super creative and ambitious individual that is very kind and loves to give to others. She has very good taste in development and has a bright future and aneeqa would be a great asset in every company.",
-                    email: "abdulabahams2002@gmail.com"
+                    email: "jakejanseneagel@gmail.com"
                 },
                 {
-                    name: "Jia Daniels",
-                    image: "https://i.postimg.cc/Qx9FPS44/zozo.jpg",
+                    name: "Savanah Samuels",
+                    image: "https://i.postimg.cc/3RcbhXMX/C11-Savannah-Samuels-1.jpg",
                     words: "Aneeqa is a very diligent and patient person. She works well in teams and is very hardworking. She takes pride in her work and is very efficient. She is very kind hearted and would be a great asset to any company she works at.",
-                    email: "jiadaniels77@gmail.com"
+                    email: "savsamuels@gmail.com"
                 },
                 {
                     name: "Zoe Daniels",
-                    image: "https://i.postimg.cc/Qx9FPS44/zozo.jpg",
+                    image: "https://i.postimg.cc/BQY5VS0F/zozo.jpg",
                     words: "Aneeqa is a hard working lady with a big heart. Her communication skills are excellent no matter if you are talking about verbal or written. Her most important quality is that she always keeps herself updated with new information .",
                     email: "zoedaniels@gmail.com"
                 },
