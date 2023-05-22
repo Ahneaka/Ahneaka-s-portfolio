@@ -67,13 +67,13 @@
         </div> -->
 <div class="container">
     <div class="row">
-  <div class="col-md-4 my-3 align-self-start" v-for="item in Projects2" :key="item">
+  <div class="col-md-4 my-3 align-self-start" v-for="item in Projects" :key="item">
     <div class="card">
         <div class="card-body">
             <img :src="item.image" style="height: 200px; width: 300px;" class="card-img-top" alt="">
             <h3 class="card-text">{{item.name }} </h3>
-          <p class="card-text">{{item.site }}
-        </p>
+          <a :href="item.site" target="_blank" class="btn btn-dark">View Project
+        </a>
         </div>
       </div>
   </div>
@@ -95,16 +95,13 @@ export default {
                     class: 'active',
                     image: 'https://i.postimg.cc/7PKBJnkf/Screenshot-2023-05-10-091927.png',
                     site: ''
-                }
-            ],
-            Projects2: [
-
+                },
                 {
                     name: 'Cypher',
-                    image: 'https://i.postimg.cc/NMmKq4kb/Screenshot-2023-04-18-151741.png',
+                    image: 'https://i.postimg.cc/7PKBJnkf/Screenshot-2023-05-10-091927.png',
                     site: 'https://v-v-g-exhibit.netlify.app/'
                 },
-
+    
                 {
                     name: 'Supwave',
                     image: 'https://i.postimg.cc/QVLjb7Fd/Screenshot-3.png',
@@ -130,7 +127,6 @@ export default {
                     image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
                     site: 'https://supwave-shop.netlify.app/'
                 }
-
 
             ]
 

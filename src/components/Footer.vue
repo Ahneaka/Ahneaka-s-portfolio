@@ -4,17 +4,20 @@
         <a href="za.linkedin.com" target="_blank">
             <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.instragram.com" target="_blank">
-            <i class="fab fa-instagram"></i>
-        </a>
+       
         <a href="https://github.com/Ahneaka" target="_blank">
             <i class="fab fa-github"></i>
         </a>
-        <a href="https://twitter.com/login" target="_blank">
-            <i class="fab fa-twitter"></i>
-        </a>
+       
         <a>
             <p class="copyright ">&copy;Ahneaka|A person| All rights reserved.</p>
+            <ul>
+              
+                    Email: ahneaka7@gmail.com
+                </ul>
+                <ul>
+                    Contact number: 066 214 1160 
+            </ul>
         </a>
     </footer>
 
