@@ -94,38 +94,33 @@ export default {
                     name: 'Arcadian',
                     class: 'active',
                     image: 'https://i.postimg.cc/7PKBJnkf/Screenshot-2023-05-10-091927.png',
-                    site: ''
+                    site: 'https://arcadian-ea31c.web.app/'
                 },
                 {
                     name: 'Cypher',
-                    image: 'https://i.postimg.cc/7PKBJnkf/Screenshot-2023-05-10-091927.png',
-                    site: 'https://v-v-g-exhibit.netlify.app/'
+                    image: 'https://i.postimg.cc/wjFVztKg/Screenshot-2023-04-18-151741.png',
+                    site: 'https://cypher-4e67a.web.app/'
                 },
     
                 {
                     name: 'Supwave',
-                    image: 'https://i.postimg.cc/QVLjb7Fd/Screenshot-3.png',
+                    image: 'https://i.postimg.cc/QdsFbSyd/Screenshot-2023-04-18-151912.png',
                     site: 'https://supwave-shop.netlify.app/'
                 },
                 {
-                    name: 'Tap above me',
+                    name: 'Old portfolio',
                     image: 'https://i.postimg.cc/g27bqR1F/Screenshot-4.png',
                     site: 'https://old-profile.netlify.app/'
                 },
                 {
-                    name: 'Tap above me',
-                    image: 'https://i.postimg.cc/mk3TmDC3/Screenshot-5.png',
+                    name: 'Calculater',
+                    image: 'https://i.postimg.cc/RVCh8GBs/Screenshot-2023-04-18-151847.png',
                     site: 'https://new-calculator-ahneaka.netlify.app/'
                 },
                 {
-                    name: 'Tap above me',
+                    name: 'Aniimeflix',
                     image: 'https://i.postimg.cc/QVLjb7Fd/Screenshot-3.png',
                     site: 'https://aniimeflix-anime.netlify.app/'
-                },
-                {
-                    name: 'Tap above me',
-                    image: 'https://i.postimg.cc/fWVWGzjv/Screenshot-1.png',
-                    site: 'https://supwave-shop.netlify.app/'
                 }
 
             ]
