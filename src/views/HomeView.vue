@@ -92,7 +92,38 @@ nav a {
   font-size: 17px;
 }
 
+/* Media queries for 300px and 700px */
+@media screen and (max-width: 700px) {
+  .card {
+    width: 90%;
+    height: auto;
+  }
 
+  .card.my-auto {
+    width: 100%;
+    height: auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .card.my-auto {
+    width: 100%;
+    height: auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .nav-img {

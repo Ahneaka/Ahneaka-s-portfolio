@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row">
+    <div class="row" >
       <div class="col-md-4 peep my-4 align-self-start"  v-for="testis in Testimonials" :key="testis">
         <div class="card">
             <div class="card-body">
@@ -75,5 +75,8 @@ export default {
 .card-body{
     max-height: 500px;
 }
-    
+ 
+.row{
+    justify-content: center;
+}
 </style>
