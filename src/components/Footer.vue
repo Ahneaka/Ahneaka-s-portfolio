@@ -1,7 +1,7 @@
 <template>
 
     <footer class="socials p-4">
-        <a href="za.linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/in/aneeqa-brown-b59801267/" target="_blank">
             <i class="fab fa-linkedin"></i>
         </a>
        
