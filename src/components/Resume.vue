@@ -1,6 +1,6 @@
 <template>
     <div class="background">
-    <div class="bg-container d-flex justify-content-center">
+    <div class="container-fluid bg-container d-flex justify-content-center">
       <div class="card my-auto" style="width: 60rem; height: 35rem">
         <div class="card-body">
           <NavBar />

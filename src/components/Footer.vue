@@ -10,7 +10,7 @@
         </a>
        
         <a>
-            <p class="copyright ">&copy;Ahneaka|A person| All rights reserved.</p>
+            <p class="copyright ">&copy;Ahneaka | A person | All rights reserved.</p>
             <ul>
               
                     Email: ahneaka7@gmail.com

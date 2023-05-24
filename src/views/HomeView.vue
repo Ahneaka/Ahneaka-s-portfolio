@@ -34,6 +34,8 @@ export default {
 <style >
     @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap");
 body {
+  padding: 0;
+  margin: 0;
   background-size: cover;
   /* background-color: #fff; */
   /* width: 100%; */

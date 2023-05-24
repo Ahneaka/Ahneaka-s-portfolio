@@ -4,11 +4,11 @@
     <h1 class="heading">Resume</h1>
     
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row " >
         <div class="col-12 my-3" v-for="item in Education" :key="item">
           <div class="card">
-            <img :src="item.image" class="card-img-top" alt="uvyt" width="100" height="500">
+            <img :src="item.image" class="img-fluid card-img-top" alt="uvyt">
             <br>
             <div class="card-body">
               <h3 class="card-title"><span style="color: grey">{{ item.year }}</span><br>{{ item.name }}</h3>
@@ -76,8 +76,9 @@ export default {
 
 <style scoped>
 
-.container{
-  width: 60%;
+.container-fluid{
+  width: 100%;
+  max-width: 750px;
 }
 .Section2{
   padding-top: 50%;
