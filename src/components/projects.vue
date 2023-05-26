@@ -70,9 +70,9 @@
   <div class="col-md-4 my-3 align-self-start" v-for="item in Projects" :key="item">
     <div class="card">
         <div class="card-body">
-            <img :src="item.image" style="height: 200px; width: 300px;" class="card-img-top" alt="">
+            <img class="card-img-top" :src="item.image" style="height: 200px; width: 300px;"  alt="">
             <h3 class="card-text">{{item.name }} </h3>
-          <a :href="item.site" target="_blank" class="btn btn-dark">View Project
+          <a :href="item.site" target="_blank" class="btn btn-secondary">View Project
         </a>
         </div>
       </div>
@@ -150,4 +150,26 @@ export default {
     justify-content: center;
     align-content: center;
 }
+
+@media (max-width: 1200px) { 
+     .card-img-top{
+        width: 250px !important; 
+    }
+    
+}
+
+@media (max-width: 997px) { 
+     .card-img-top{
+        width: 170px !important; 
+    }
+    
+}
+
+@media (max-width: 900px) { 
+     .card-img-top{
+        width: 180px !important; 
+    }
+    
+}
+
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="background">
-    <NavBar />
-    <body>
+  <NavBar />
       <h1 class="heading">About Me</h1>
       <div class="bg-container d-flex">
         <div class="card" style="width: 60rem; height: 35rem;padding-top: 5px;">
@@ -25,7 +24,6 @@
       </div>
       <Footer1 />
       
-    </body>
   </div>
  
 </template>

@@ -21,7 +21,7 @@
                       </div>
                     </div>
                     <div class="col-md-4 position-relative">
-                      <label for="validationTooltipUsername" class="form-label">Username</label>
+                      <label for="validationTooltipUsername" class="form-label">Email</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
                         <input type="text" name="username" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>

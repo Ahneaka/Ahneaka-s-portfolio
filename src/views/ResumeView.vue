@@ -3,6 +3,9 @@
     <NavBar />
     <h1 class="heading">Resume</h1>
     
+    <button id="download-btn" target="_blank" class="btn btn-secondary"
+        @click="downloadCV">Download my CV</button>
+
 
     <div class="container-fluid">
       <div class="row " >
@@ -37,6 +40,14 @@ import NavBar from '@/components/Navbar.vue'
 import Footer1 from '@/components/Footer.vue'
 export default {
   name: 'info',
+  methods: {
+      downloadCV() {
+        const link = document.createElement('a');
+        link.href = 'https://drive.google.com/file/d/1WMXPg44D5EyBDguxI45QLoRueHbwbwON/view?usp=share_link';
+        link.download = 'Aneeqa Brown CV and Cover letter.pdf';
+        link.click()
+      }
+    },
   data() {
     return {
       Education: [
