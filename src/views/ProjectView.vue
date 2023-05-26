@@ -8,9 +8,9 @@ import NavBar from '@/components/Navbar.vue'
 import Footer1 from '@/components/Footer.vue'
 import information from '@/components/projects.vue'
 export default {
+  name: 'Project',
   components: {
     NavBar,
-    CarouselVue,
     Footer1,
     information
   }
@@ -18,12 +18,3 @@ export default {
 
 </script>
 
-<style scoped>
-.carousel-item {
-    height: 32rem;
-    color: pink;
-
-
-  }
-
-</style>
