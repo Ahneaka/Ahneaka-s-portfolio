@@ -1,17 +1,4 @@
 <template>
-  <!-- <div class="background">
-    <NavBar />
-    <h1 class="heading">Projects</h1>
-    <div class="bg-container d-flex">
-      <div class="card my-auto" style="width: 60rem; height: 35rem">
-        <div class="card-body">
-          
-           
-        <Footer1 />
-      </div>
-      </div>
-      </div>
-      </div> -->
     <information/>
     <Footer1/>
 </template>

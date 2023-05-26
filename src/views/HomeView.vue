@@ -15,9 +15,6 @@
 
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-// import NavBar from '@/components/Navbar.vue'
 import footer1 from '@/components/Footer.vue';
 import Home from '@/components/Home.vue';
 import NavBar from "@/components/Navbar.vue";
