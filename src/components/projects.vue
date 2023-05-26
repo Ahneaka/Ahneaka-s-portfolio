@@ -79,14 +79,7 @@ export default {
     justify-content: center;
 }
 
-.carousel-item {
-    /* height: 30rem; */
-    color: pink;
-    /* background-color: gold; */
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+
 
 @media (max-width: 1200px) {
     .card-img-top {

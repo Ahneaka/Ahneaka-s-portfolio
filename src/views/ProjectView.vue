@@ -5,7 +5,6 @@
 
 <script>
 import NavBar from '@/components/Navbar.vue'
-import CarouselVue from '@/components/Carousel.vue'
 import Footer1 from '@/components/Footer.vue'
 import information from '@/components/projects.vue'
 export default {

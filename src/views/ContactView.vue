@@ -3,7 +3,7 @@
     <NavBar />
     <h1 class="heading">Contact</h1>
     <div class="bg-container d-flex">
-      <div class="card my-auto" style="width: 60rem; height: 35rem">
+      <div class="card my-auto" style="width: 60rem; height: 25rem">
         <div class="card-body">
           <form action="https://formspree.io/f/myyvjoyz" method="post" class="row g-3 needs-validation" novalidate>
             <div class="col-md-4 position-relative">
@@ -31,7 +31,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 pt-5">
               <button class="btn btn-secondary" type="submit">Submit form</button>
             </div>
           </form>

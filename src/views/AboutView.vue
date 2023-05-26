@@ -31,11 +31,9 @@
 <script>
 import NavBar from '@/components/Navbar.vue'
 import Footer1 from '@/components/Footer.vue'
-import CarouselVue from '@/components/Carousel.vue'
 export default {
   components: {
     NavBar,
-    CarouselVue,
     Footer1
   }
 }
